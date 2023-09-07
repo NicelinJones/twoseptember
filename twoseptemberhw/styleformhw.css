@@ -1,5 +1,7 @@
 /* Global Styles */
 body {
+    background-image: repeating-radial-gradient(#bf4289, #eee 15%, #ccc 30%); ;
+    flex-wrap: wrap;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -71,6 +73,7 @@ input[type="submit"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 200px;
 }
 
 input[type="reset"] {
@@ -80,5 +83,5 @@ input[type="reset"] {
 
 /* Additional Styles */
 .hidden {
-    display: none;
+    display:none;
 }
